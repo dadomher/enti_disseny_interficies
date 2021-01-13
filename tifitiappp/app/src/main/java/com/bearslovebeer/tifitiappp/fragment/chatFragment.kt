@@ -124,7 +124,7 @@ class chatFragment : Fragment() {
                                         Log.i("Chat", "Succes uploding message $message")
                                         // Update Chats
                                         getChats()
-                                        messageEditText.setText(" ")
+                                        messageEditText.setText("") //put empty chat
                                     } else {
                                         Log.i("Chat", "Error uploading message $message")
                                         // TODO: Show error
