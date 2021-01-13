@@ -6,6 +6,9 @@ import android.widget.FrameLayout
 import androidx.fragment.app.FragmentTransaction
 import com.bearslovebeer.tifitiappp.fragment.chatFragment
 import com.bearslovebeer.tifitiappp.fragment.profileFragment
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -79,6 +82,13 @@ class MainActivity : AppCompatActivity() {
             }
 
             true
+
         }
+        // Init ADmob
+        MobileAds.initialize(this){}
+        // Load Ad
+        val adView = findViewById<AdView>(R.id.adView)
+        val adRequest = AdRequest.Builder().build()
+        adView.loadAd(adRequest)
     }
 }

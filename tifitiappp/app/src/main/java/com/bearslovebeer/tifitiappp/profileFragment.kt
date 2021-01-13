@@ -10,13 +10,14 @@ import android.widget.Button
 import android.widget.TextView
 import com.bearslovebeer.tifitiappp.R
 import com.bearslovebeer.tifitiappp.RegisterActivity
+import com.google.firebase.analytics.ktx.analytics
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 class profileFragment : Fragment() {
 
     private val TAG = "ProfileFragment"
-
+    private val firebaseAn = Firebase.analytics
     // Views
     private lateinit var registerButton: Button
     private lateinit var welcomeTextView: TextView
@@ -48,6 +49,13 @@ class profileFragment : Fragment() {
 
     private fun initListeners() {
         registerButton.setOnClickListener {
+            // Track register button click
+            firebaseAn.logEvent("registerButtonClick", null)
+
+            /*val bundle = Bundle()
+            bundle.putString(firebaseAn.Param.METHOD, method)
+            firebaseAn.logEvent(firebaseAn.Event.SIGN_UP, bundle)*/
+            // Open Register Activity
             val intent = Intent(activity, RegisterActivity::class.java)
             startActivity(intent)
         }

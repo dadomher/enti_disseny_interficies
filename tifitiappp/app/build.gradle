@@ -49,8 +49,12 @@ dependencies {
 
     // Firebase
     implementation platform('com.google.firebase:firebase-bom:26.2.0')
+    // Analytics
+    implementation 'com.google.firebase:firebase-analytics-ktx'
     // Firebase authentication
     implementation 'com.google.firebase:firebase-auth-ktx'
     // Firebase Firestore
     implementation 'com.google.firebase:firebase-firestore-ktx'
+    // ADS
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
 }
