@@ -52,7 +52,7 @@ class chatFragment : Fragment() {
         // Init Views
         initViews(view)
         // Init RecyclerView
-        iniRecyclerView()
+        initRecyclerView()
         // Init Listeners
         initListeners()
         // Get Chats
@@ -66,7 +66,7 @@ class chatFragment : Fragment() {
         swipeRefreshLayout = view.findViewById(R.id.swipeRefreshLayout)
     }
 
-    private fun iniRecyclerView() {
+    private fun initRecyclerView() {
         //Layout Manager
         var layoutManager = LinearLayoutManager(activity)
         recyclerView.layoutManager = layoutManager

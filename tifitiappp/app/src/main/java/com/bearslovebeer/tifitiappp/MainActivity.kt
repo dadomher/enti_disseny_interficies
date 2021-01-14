@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.FrameLayout
 import androidx.fragment.app.FragmentTransaction
 import com.bearslovebeer.tifitiappp.fragment.chatFragment
+import com.bearslovebeer.tifitiappp.fragment.NewsFragment
 import com.bearslovebeer.tifitiappp.fragment.profileFragment
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
@@ -13,7 +14,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
     //Create our five fragments object
-    lateinit var newsFragment: newsFragment
+    lateinit var newsFragment: NewsFragment
     lateinit var objectsFragment: objectsFragment
     lateinit var champsFragment: champsFragment
     lateinit var chatFragment: chatFragment
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         var bottomnav = findViewById<BottomNavigationView>(R.id.BottomNavMenu)
         var frame:FrameLayout = findViewById<FrameLayout>(R.id.frameLayout)
         //now let's the default fragment
-        newsFragment = newsFragment()
+        newsFragment = NewsFragment()
         supportFragmentManager
             .beginTransaction()
             .replace(R.id.frameLayout,newsFragment)
@@ -39,7 +40,8 @@ class MainActivity : AppCompatActivity() {
         bottomnav.setOnNavigationItemSelectedListener { item ->
             when(item.itemId){
                 R.id.news -> {
-                    newsFragment = newsFragment()
+                    newsFragment =
+                        NewsFragment()
                     supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.frameLayout,newsFragment)
