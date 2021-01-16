@@ -1,7 +1,7 @@
 package com.bearslovebeer.tifitiappp.data
 
 import android.content.Context
-import com.bearslovebeer.tifitiappp.model.User
+import com.bearslovebeer.tifitiappp.models.User
 
 class UserRepository (
     private val firestoreDataSource: UserFirestoreDataSource = UserFirestoreDataSource(),

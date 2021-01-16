@@ -1,7 +1,7 @@
 package com.bearslovebeer.tifitiappp.data
 
 import com.bearslovebeer.tifitiappp.Constants.COLLECTION_USERS
-import com.bearslovebeer.tifitiappp.model.User
+import com.bearslovebeer.tifitiappp.models.User
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 

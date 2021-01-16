@@ -1,13 +1,12 @@
 package com.bearslovebeer.tifitiappp.adapter
 
 import android.view.LayoutInflater
-import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bearslovebeer.tifitiappp.R
-import com.bearslovebeer.tifitiappp.model.Chat
+import com.bearslovebeer.tifitiappp.models.Chat
 
 class ChatAdapter(var chatList: List<Chat>): RecyclerView.Adapter<ChatAdapter.ChatViewHolder>() {
 

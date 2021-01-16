@@ -1,4 +1,4 @@
-package com.bearslovebeer.tifitiappp.model
+package com.bearslovebeer.tifitiappp.models
 
 data class Chat (
     val userId: String? = null,

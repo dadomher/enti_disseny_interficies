@@ -15,12 +15,11 @@ import com.bearslovebeer.tifitiappp.Constants.COLLECTION_CHAT
 import com.bearslovebeer.tifitiappp.Constants.COLLECTION_USERS
 import com.bearslovebeer.tifitiappp.R
 import com.bearslovebeer.tifitiappp.adapter.ChatAdapter
-import com.bearslovebeer.tifitiappp.model.Chat
-import com.bearslovebeer.tifitiappp.model.User
+import com.bearslovebeer.tifitiappp.models.Chat
+import com.bearslovebeer.tifitiappp.models.User
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.ktx.Firebase
 import java.util.*
 
