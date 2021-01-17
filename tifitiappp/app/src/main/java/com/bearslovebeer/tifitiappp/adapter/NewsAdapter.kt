@@ -1,13 +1,21 @@
 package com.bearslovebeer.tifitiappp.adapter
 
+import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bearslovebeer.tifitiappp.R
+import com.bearslovebeer.tifitiappp.WebViewActivity
+import com.bearslovebeer.tifitiappp.fragment.NewsFragment
 import com.bearslovebeer.tifitiappp.models.News
+import com.google.android.material.internal.ContextUtils.getActivity
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_news.view.*
+
+
 
 class NewsAdapter(val newsList: List<News>):RecyclerView.Adapter<NewsAdapter.NewsHolder>() { //El ADAPTER es quien se encarga de coger la información y distribuirla en los items para que el recycleview los pinte.
 
@@ -17,7 +25,6 @@ class NewsAdapter(val newsList: List<News>):RecyclerView.Adapter<NewsAdapter.New
     }
 
     override fun getItemCount(): Int =  newsList.size // Le pregunta al recyclerview: ¿Cuantos items tiene?
-
 
     override fun onBindViewHolder(holder: NewsHolder, position: Int) {
         holder.render(newsList[position])
@@ -29,6 +36,9 @@ class NewsAdapter(val newsList: List<News>):RecyclerView.Adapter<NewsAdapter.New
             view.newsTitle.text = newsList.title
             view.newsDescription.text = newsList.description
             Picasso.get().load(newsList.imgUrl).into(view.newsBanner)
+            view.newsDate.text = newsList.date
         }
     }
+
 }
+

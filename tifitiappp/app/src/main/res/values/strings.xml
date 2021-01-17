@@ -12,6 +12,7 @@
     // NEWS FRAGMENT
     <string name="titleExemple">Title</string>
     <string name="descriptionExemple">This is a description</string>
+    <string name="dateExemple">01/01/01</string>
 
     // TOAST ALERTS
     <string name="error_mail_invalid">Email is not valid.</string>

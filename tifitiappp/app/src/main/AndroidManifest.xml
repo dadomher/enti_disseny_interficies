@@ -21,7 +21,10 @@
         <activity android:name=".RegisterActivity"
             android:label="Register"
             android:parentActivityName=".MainActivity">
-
+        </activity>
+        <activity android:name=".WebViewActivity"
+            android:label="Web"
+            android:parentActivityName=".MainActivity">
         </activity>
 
         <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->

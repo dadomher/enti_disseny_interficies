@@ -20,9 +20,13 @@ class MainActivity : AppCompatActivity() {
     lateinit var chatFragment: chatFragment
     lateinit var profileFragment: profileFragment
 
+    //lateinit var items: List<ListItems>
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+       // items = listOf<ListItems>(ListItems())
 
         //now let's create our framelayout and bottomnav variables
         var bottomnav = findViewById<BottomNavigationView>(R.id.BottomNavMenu)
@@ -93,8 +97,49 @@ class MainActivity : AppCompatActivity() {
         val adRequest = AdRequest.Builder().build()
         adView.loadAd(adRequest)
 
+       /* val jsonString = loadJson(this)
 
+        val items = Gson().fromJson(jsonString, ListItems::class.java)
+        Log.d("MainActivity", "Size: ${items.data.size}")*/
 
+        //initRecycler()
     }
 
+    /**
+     * Write a func to load json from the json_data.json
+     */
+    /*private fun loadJson(context: Context): String? {
+        var input: InputStream? = null
+        var jsonString: String
+
+        try {
+            // Create InputStream
+            input = context.assets.open("json_data.json")
+
+            val size = input.available()
+
+            // Create a buffer with the size
+            val buffer = ByteArray(size)
+
+            // Read data from InputStream into the Buffer
+            input.read(buffer)
+
+            // Create a json String
+            jsonString = String(buffer)
+            //Log.d("MainActivity", jsonString)
+            return jsonString
+        } catch (ex: Exception) {
+            ex.printStackTrace()
+            return null
+        } finally {
+            // Must close the stream
+            input?.close()
+        }
+    }*/
+
+   /* fun initRecycler() {
+        item_recyclerView.layoutManager = LinearLayoutManager()
+        val adapter = ItemsAdapter(items)
+        //item_recyclerView.adapter = adapter
+    }*/
 }

@@ -5,9 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bearslovebeer.tifitiappp.R
+import com.bearslovebeer.tifitiappp.WebViewActivity
 import com.bearslovebeer.tifitiappp.adapter.NewsAdapter
 import com.bearslovebeer.tifitiappp.models.News
 import kotlinx.android.synthetic.main.fragment_news.*
@@ -113,6 +115,5 @@ class NewsFragment : Fragment() {
         val adapter = NewsAdapter(newsObject)
         news_recyclerView.adapter = adapter
     }
-
 
 }
