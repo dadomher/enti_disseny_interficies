@@ -24,7 +24,7 @@ import com.google.firebase.ktx.Firebase
 import java.util.*
 
 
-class chatFragment : Fragment() {
+class ChatFragment : Fragment() {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var messageEditText: EditText

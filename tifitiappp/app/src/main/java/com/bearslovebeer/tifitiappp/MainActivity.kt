@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.FrameLayout
 import androidx.fragment.app.FragmentTransaction
-import com.bearslovebeer.tifitiappp.fragment.chatFragment
+import com.bearslovebeer.tifitiappp.fragment.ChatFragment
 import com.bearslovebeer.tifitiappp.fragment.NewsFragment
+import com.bearslovebeer.tifitiappp.fragment.ObjectsFragment
 import com.bearslovebeer.tifitiappp.fragment.profileFragment
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
@@ -15,18 +16,14 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class MainActivity : AppCompatActivity() {
     //Create our five fragments object
     lateinit var newsFragment: NewsFragment
-    lateinit var objectsFragment: objectsFragment
+    lateinit var objectsFragment: ObjectsFragment
     lateinit var champsFragment: champsFragment
-    lateinit var chatFragment: chatFragment
+    lateinit var chatFragment: ChatFragment
     lateinit var profileFragment: profileFragment
-
-    //lateinit var items: List<ListItems>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-       // items = listOf<ListItems>(ListItems())
 
         //now let's create our framelayout and bottomnav variables
         var bottomnav = findViewById<BottomNavigationView>(R.id.BottomNavMenu)
@@ -53,7 +50,8 @@ class MainActivity : AppCompatActivity() {
                         .commit()
                 }
                 R.id.objects -> {
-                    objectsFragment = objectsFragment()
+                    objectsFragment =
+                        ObjectsFragment()
                     supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.frameLayout,objectsFragment)
@@ -70,7 +68,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.chat -> {
                     chatFragment =
-                        chatFragment()
+                        ChatFragment()
                     supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.frameLayout,chatFragment)
@@ -97,49 +95,7 @@ class MainActivity : AppCompatActivity() {
         val adRequest = AdRequest.Builder().build()
         adView.loadAd(adRequest)
 
-       /* val jsonString = loadJson(this)
-
-        val items = Gson().fromJson(jsonString, ListItems::class.java)
-        Log.d("MainActivity", "Size: ${items.data.size}")*/
-
-        //initRecycler()
     }
 
-    /**
-     * Write a func to load json from the json_data.json
-     */
-    /*private fun loadJson(context: Context): String? {
-        var input: InputStream? = null
-        var jsonString: String
 
-        try {
-            // Create InputStream
-            input = context.assets.open("json_data.json")
-
-            val size = input.available()
-
-            // Create a buffer with the size
-            val buffer = ByteArray(size)
-
-            // Read data from InputStream into the Buffer
-            input.read(buffer)
-
-            // Create a json String
-            jsonString = String(buffer)
-            //Log.d("MainActivity", jsonString)
-            return jsonString
-        } catch (ex: Exception) {
-            ex.printStackTrace()
-            return null
-        } finally {
-            // Must close the stream
-            input?.close()
-        }
-    }*/
-
-   /* fun initRecycler() {
-        item_recyclerView.layoutManager = LinearLayoutManager()
-        val adapter = ItemsAdapter(items)
-        //item_recyclerView.adapter = adapter
-    }*/
 }

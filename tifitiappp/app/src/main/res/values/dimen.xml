@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="layout_margin_small">8dp</dimen>
     <dimen name="layout_margin_medium">16dp</dimen>
     <dimen name="layout_margin_high">48dp</dimen>
     <dimen name="layout_margin_XL">72dp</dimen>
 
     //News fragment
-    <dimen name="layout_margin_small">4dp</dimen>
+    <dimen name="layout_margin_small_news">4dp</dimen>
     <dimen name="cardCornerRadius">10dp</dimen>
     <dimen name="cardPadding">20dp</dimen>
     <dimen name="objectMargin">10dp</dimen>

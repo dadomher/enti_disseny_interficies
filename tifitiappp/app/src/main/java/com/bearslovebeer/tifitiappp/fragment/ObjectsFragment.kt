@@ -1,23 +1,20 @@
-package com.bearslovebeer.tifitiappp
+package com.bearslovebeer.tifitiappp.fragment
 
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bearslovebeer.tifitiappp.adapter.ItemsAdapter
-import com.bearslovebeer.tifitiappp.models.Items2
+import com.bearslovebeer.tifitiappp.R
+import com.bearslovebeer.tifitiappp.adapter.ObjectsAdapter
 import com.bearslovebeer.tifitiappp.models.ListItems
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.fragment_objects.*
 import java.io.InputStream
 
-class objectsFragment : Fragment() {
-
-    lateinit var items: ArrayList<Items2>
+class ObjectsFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -30,14 +27,11 @@ class objectsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        items = arrayListOf<Items2>()
-
         val jsonString = loadJson(context!!)
 
-        val items2 = Gson().fromJson(jsonString, ListItems::class.java)
-        Log.d("MainActivity", "Size: ${items2.data.size}")
+        val items = Gson().fromJson(jsonString, ListItems::class.java)
 
-        initRecycler()
+        initRecycler(items)
     }
 
     private fun loadJson(context: Context): String? {
@@ -58,7 +52,7 @@ class objectsFragment : Fragment() {
 
             // Create a json String
             jsonString = String(buffer)
-            //Log.d("MainActivity", jsonString)
+
             return jsonString
         } catch (ex: Exception) {
             ex.printStackTrace()
@@ -69,9 +63,9 @@ class objectsFragment : Fragment() {
         }
     }
 
-    fun initRecycler() {
+    fun initRecycler(items: ListItems) {
         item_recyclerView.layoutManager = LinearLayoutManager(context)
-        val adapter = ItemsAdapter(items)
+        val adapter = ObjectsAdapter(items)
         item_recyclerView.adapter = adapter
     }
 }
