@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.bearslovebeer.tifitiappp.R
 import com.bearslovebeer.tifitiappp.adapter.ObjectsAdapter
 import com.bearslovebeer.tifitiappp.models.ListItems
+import com.bearslovebeer.tifitiappp.models.ListItems_v2
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.fragment_objects.*
 import java.io.InputStream
@@ -29,7 +30,7 @@ class ObjectsFragment : Fragment() {
 
         val jsonString = loadJson(context!!)
 
-        val items = Gson().fromJson(jsonString, ListItems::class.java)
+        val items = Gson().fromJson(jsonString, ListItems_v2::class.java)
 
         initRecycler(items)
     }
@@ -40,7 +41,7 @@ class ObjectsFragment : Fragment() {
 
         try {
             // Create InputStream
-            input = context.assets.open("json_data.json")
+            input = context.assets.open("json_data_v2.json")
 
             val size = input.available()
 
@@ -63,9 +64,42 @@ class ObjectsFragment : Fragment() {
         }
     }
 
-    fun initRecycler(items: ListItems) {
-        item_recyclerView.layoutManager = LinearLayoutManager(context)
-        val adapter = ObjectsAdapter(items)
-        item_recyclerView.adapter = adapter
+    fun initRecycler(items: ListItems_v2) {
+
+        sword_recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        var adapter = ObjectsAdapter(items, 0)
+        sword_recyclerView.adapter = adapter
+
+        bow_recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        adapter = ObjectsAdapter(items, 1)
+        bow_recyclerView.adapter = adapter
+
+        rod_recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        adapter = ObjectsAdapter(items, 2)
+        rod_recyclerView.adapter = adapter
+
+        tear_recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        adapter = ObjectsAdapter(items, 3)
+        tear_recyclerView.adapter = adapter
+
+        vest_recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        adapter = ObjectsAdapter(items, 4)
+        vest_recyclerView.adapter = adapter
+
+        coat_recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        adapter = ObjectsAdapter(items, 5)
+        coat_recyclerView.adapter = adapter
+
+        belt_recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        adapter = ObjectsAdapter(items, 6)
+        belt_recyclerView.adapter = adapter
+
+        gloves_recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        adapter = ObjectsAdapter(items, 7)
+        gloves_recyclerView.adapter = adapter
+
+        spatula_recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        adapter = ObjectsAdapter(items, 8)
+        spatula_recyclerView.adapter = adapter
     }
 }

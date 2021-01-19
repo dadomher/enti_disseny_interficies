@@ -1,16 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:id="@+id/item_recyclerView"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            // Sword objects recycler view
+
+            <TextView
+                android:id="@+id/sword_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/objectMargin"
+                android:text="@string/sword_tv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/sword_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            // Bow objects recycler view
+
+            <TextView
+                android:id="@+id/bow_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/objectMargin"
+                android:text="@string/bow_tv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/bow_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            // Rod objects recycler view
+
+            <TextView
+                android:id="@+id/rod_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/objectMargin"
+                android:text="@string/rod_tv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rod_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            // Tear objects recycler view
+
+            <TextView
+                android:id="@+id/tear_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/objectMargin"
+                android:text="@string/tear_tv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/tear_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            // Vest objects recycler view
+
+            <TextView
+                android:id="@+id/vest_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/objectMargin"
+                android:text="@string/vest_tv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/vest_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            // Coat objects recycler view
+
+            <TextView
+                android:id="@+id/coat_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/objectMargin"
+                android:text="@string/coat_tv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/coat_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            // Belt objects recycler view
+
+            <TextView
+                android:id="@+id/belt_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/objectMargin"
+                android:text="@string/belt_tv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/belt_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            // Gloves objects recycler view
+
+            <TextView
+                android:id="@+id/gloves_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/objectMargin"
+                android:text="@string/gloves_tv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/gloves_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            // Spatula objects recycler view
+
+            <TextView
+                android:id="@+id/spatula_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/objectMargin"
+                android:text="@string/spatula_tv" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/spatula_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

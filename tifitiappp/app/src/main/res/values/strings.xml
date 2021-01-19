@@ -14,6 +14,17 @@
     <string name="descriptionExemple">This is a description</string>
     <string name="dateExemple">01/01/01</string>
 
+    // OBJECTS FRAGMENT
+    <string name="sword_tv">Sword objects: </string>
+    <string name="bow_tv">Bow objects: </string>
+    <string name="rod_tv">Rod objects: </string>
+    <string name="tear_tv">Tear objects: </string>
+    <string name="vest_tv">Vest objects: </string>
+    <string name="coat_tv">Coat objects: </string>
+    <string name="belt_tv">Belt objects: </string>
+    <string name="gloves_tv">Gloves objects: </string>
+    <string name="spatula_tv">Spatula objects: </string>
+
     // TOAST ALERTS
     <string name="error_mail_invalid">Email is not valid.</string>
     <string name="error_password_invalid">Password must be at least %d chars long and contain letters &amp; numbers.</string>
