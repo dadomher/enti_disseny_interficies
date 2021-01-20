@@ -7,8 +7,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562"
     },
     {
       "name": "Verdugo de Gigantes",
@@ -17,8 +17,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562"
     },
     {
       "name": "Sablepistola Hextech",
@@ -27,8 +27,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562"
     },
     {
       "name": "Lanza de Shojin",
@@ -37,8 +37,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562"
     },
     {
       "name": "Ángel de la guarda",
@@ -47,8 +47,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Sanguinaria",
@@ -57,18 +57,18 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Heraldo de Zeke",
       "imgUrl": "https://lolg-cdn.porofessor.gg/img/tft/items/17.png?t=1610931901848",
       "description": "Emite un aura que afecta a todos los aliados a un máximo de dos casillas de distancia a izquierda y derecha del portador y aumenta la velocidad de ataque un 18%.",
-      "bonusImgUrl_1": "",
+      "bonusImgUrl_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Filo infinito",
@@ -77,8 +77,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Espada de lo Divino",
@@ -87,8 +87,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562"
     }
   ],
   "bow": [
@@ -99,8 +99,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562"
     },
     {
       "name": "Cañón de Fuego Rápido",
@@ -109,8 +109,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562"
     },
     {
       "name": "Hoja de Furia de Guinsoo",
@@ -119,8 +119,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562"
     },
     {
       "name": "Daga de Statikk",
@@ -129,8 +129,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562"
     },
     {
       "name": "Resolución titánica",
@@ -139,8 +139,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Huracán de Runaan",
@@ -149,8 +149,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Portal Zz'Rot",
@@ -159,8 +159,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Últimas palabras",
@@ -169,8 +169,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Ímpetu de duelista",
@@ -179,8 +179,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562"
     }
   ],
   "rod": [
@@ -191,8 +191,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562"
     },
     {
       "name": "Hoja de Furia de Guinsoo",
@@ -201,8 +201,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562"
     },
     {
       "name": "Sombrero Mortífero de Rabadon",
@@ -211,8 +211,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562"
     },
     {
       "name": "Eco de Luden",
@@ -221,8 +221,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562"
     },
     {
       "name": "Relicario de los Solari de Hierro",
@@ -231,8 +231,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Chispa Iónica",
@@ -241,8 +241,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Morellonomicón",
@@ -251,8 +251,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Guantelete enjoyado",
@@ -261,8 +261,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Manto de oscuridad",
@@ -271,8 +271,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562"
     }
   ],
   "tear": [
@@ -283,8 +283,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562"
     },
     {
       "name": "Daga de Statikk",
@@ -293,8 +293,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562"
     },
     {
       "name": "Eco de Luden",
@@ -303,8 +303,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562"
     },
     {
       "name": "Mejora azul",
@@ -313,8 +313,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562"
     },
     {
       "name": "Corazón de Hielo",
@@ -323,8 +323,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Cáliz de Favor",
@@ -333,8 +333,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Redención",
@@ -343,8 +343,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Mano de la Justicia",
@@ -353,8 +353,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Gorro de Mago",
@@ -363,8 +363,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562"
     }
   ],
   "vest": [
@@ -375,8 +375,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Resolución titánica",
@@ -385,8 +385,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Relicario de los Solari de Hierro",
@@ -395,8 +395,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Corazón de Hielo",
@@ -405,8 +405,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Chaleco de zarzas",
@@ -415,8 +415,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Protector pétreo de gárgola",
@@ -425,8 +425,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Capa de fuego solar",
@@ -435,8 +435,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Velo de Sosiego",
@@ -445,8 +445,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Coraza de Vanguardia",
@@ -455,8 +455,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     }
   ],
   "coat": [
@@ -467,8 +467,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Huracán de Runaan",
@@ -477,8 +477,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Chispa Iónica",
@@ -487,8 +487,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Cáliz de Favor",
@@ -497,8 +497,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Protector pétreo de gárgola",
@@ -507,8 +507,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Garra de Dragón",
@@ -517,8 +517,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Céfiro",
@@ -527,8 +527,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Fajín",
@@ -537,8 +537,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Reliquia de Bosque Ancestral",
@@ -547,8 +547,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     }
   ],
   "belt": [
@@ -559,8 +559,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Portal Zz'Rot",
@@ -569,8 +569,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Morellonomicón",
@@ -579,8 +579,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Redención",
@@ -589,8 +589,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Capa de fuego solar",
@@ -599,8 +599,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Céfiro",
@@ -609,8 +609,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Armadura de Warmog",
@@ -619,8 +619,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Garra Trampa",
@@ -629,8 +629,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Estandarte de Señor de la Guerra",
@@ -639,8 +639,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     }
   ],
   "gloves": [
@@ -651,8 +651,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Últimas palabras",
@@ -661,8 +661,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Guantelete enjoyado",
@@ -671,8 +671,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Mano de la Justicia",
@@ -681,8 +681,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Velo de Sosiego",
@@ -691,8 +691,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Fajín",
@@ -701,8 +701,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Garra Trampa",
@@ -711,8 +711,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Guantes de Ladrón",
@@ -721,8 +721,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Filo fantasmal de Youmuu",
@@ -731,8 +731,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     }
   ],
   "spatula": [
@@ -743,8 +743,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/1.png?t=1611104701562"
     },
     {
       "name": "Ímpetu de duelista",
@@ -753,8 +753,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/2.png?t=1611104701562"
     },
     {
       "name": "Manto de oscuridad",
@@ -763,8 +763,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/3.png?t=1611104701562"
     },
     {
       "name": "Gorro de Mago",
@@ -773,8 +773,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/4.png?t=1611104701562"
     },
     {
       "name": "Coraza de Vanguardia",
@@ -783,8 +783,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/5.png?t=1611104701562"
     },
     {
       "name": "Reliquia de Bosque Ancestral",
@@ -793,8 +793,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/6.png?t=1611104701562"
     },
     {
       "name": "Estandarte de Señor de la Guerra",
@@ -803,8 +803,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/7.png?t=1611104701562"
     },
     {
       "name": "Filo fantasmal de Youmuu",
@@ -813,8 +813,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/9.png?t=1611104701562"
     },
     {
       "name": "Fuerza de la Naturaleza",
@@ -823,8 +823,8 @@
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
       "passive": "Pasiva no acumulable",
-      "subItem_1": "",
-      "subItem_2": ""
+      "subItem_1": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562",
+      "subItem_2": "http://lolg-cdn.porofessor.gg/img/tft/items/8.png?t=1611104701562"
     }
   ]
 }

@@ -54,8 +54,8 @@ class ObjectsAdapter (val items: ListItems_v2, val nameObject: Int):RecyclerView
                 //intent.putExtra("BONUS_2", );
                 intent.putExtra("PASSIVE", items.sword.get(position).passive);
                 intent.putExtra("IMG_URL", items.sword.get(position).imgUrl);
-                //intent.putExtra("ITEM1_URL", );
-                //intent.putExtra("ITEM2_URL", );
+                intent.putExtra("ITEM1_URL", items.sword.get(position).subItem_1);
+                intent.putExtra("ITEM2_URL", items.sword.get(position).subItem_2);
                 intent.putExtra("DESCRIPTION", items.sword.get(position).description);
 
                 context.startActivity(intent)
