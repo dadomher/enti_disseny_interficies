@@ -6,7 +6,9 @@
       "description": "Al participar en una eliminación, otorga 15 de daño de ataque adicional hasta que finalice el combate (se acumula de forma infinita). Comienzas automáticamente con 3 acumulaciones.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Verdugo de Gigantes",
@@ -14,7 +16,9 @@
       "description": "Los ataques infligen un 12% adicional de la vida máxima del enemigo como daño físico.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Sablepistola Hextech",
@@ -22,7 +26,9 @@
       "description": "Curan un 25% del daño infligido con ataques básicos y de hechizos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Lanza de Shojin",
@@ -30,7 +36,9 @@
       "description": "Tras realizar una habilidad, recuperas un 18% del maná por ataque.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Ángel de la guarda",
@@ -38,7 +46,9 @@
       "description": "Revives con hasta 400 puntos de vida tras 2 segundos (se puede activar una vez por combate).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Sanguinaria",
@@ -46,7 +56,9 @@
       "description": "Los ataques básicos curan al portador un +40% de vida.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Heraldo de Zeke",
@@ -54,7 +66,9 @@
       "description": "Emite un aura que afecta a todos los aliados a un máximo de dos casillas de distancia a izquierda y derecha del portador y aumenta la velocidad de ataque un 18%.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Filo infinito",
@@ -62,7 +76,9 @@
       "description": "El daño crítico se incrementa un 100%.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Espada de lo Divino",
@@ -70,7 +86,9 @@
       "description": "El portador es también Divino (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     }
   ],
   "bow": [
@@ -80,7 +98,9 @@
       "description": "Los ataques infligen un 12% adicional de la vida máxima del enemigo como daño físico.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Cañón de Fuego Rápido",
@@ -88,7 +108,9 @@
       "description": "El alcance del portador se aumenta en un 100%. Los ataques no pueden fallar.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Hoja de Furia de Guinsoo",
@@ -96,7 +118,9 @@
       "description": "Los ataques obtienen un 4% de Velocidad de ataque adicional para el resto del combate. Se acumula indefinidamente.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Daga de Statikk",
@@ -104,7 +128,9 @@
       "description": "Inflige 70 de daño mágico a 3/4/5 enemigos (progresa con el nivel de estrellas del portador).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Resolución titánica",
@@ -112,7 +138,9 @@
       "description": "Cuando el portador recibe o inflige un golpe crítico, obtiene un 2% de daño adicional, acumulable hasta el 100%. Con 50 acumulaciones, el portador aumenta de tamaño y obtiene 25 de armadura y resistencia mágica. Se reinicia cada ronda.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Huracán de Runaan",
@@ -120,7 +148,9 @@
       "description": "Los ataques básicos disparan un proyectil adicional a otro enemigo cercano que inflige un 70% del daño de ataque del portador y aplica efectos de impacto.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Portal Zz'Rot",
@@ -128,7 +158,9 @@
       "description": "Al morir, invoca un ente del Vacío con 1000/2000/4000 de vida que provoca a todos los enemigos cercanos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Últimas palabras",
@@ -136,7 +168,9 @@
       "description": "Los golpes críticos reducen la armadura del objetivo en un 90% durante 3 s. Este efecto no se acumula.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Ímpetu de duelista",
@@ -144,7 +178,9 @@
       "description": "El portador es también Duelista (solo uno por campeón).\n",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     }
   ],
   "rod": [
@@ -154,7 +190,9 @@
       "description": "Curan un 25% del daño infligido con ataques básicos y de hechizos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Hoja de Furia de Guinsoo",
@@ -162,7 +200,9 @@
       "description": "Los ataques obtienen un 4% de Velocidad de ataque adicional para el resto del combate. Se acumula indefinidamente.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Sombrero Mortífero de Rabadon",
@@ -170,7 +210,9 @@
       "description": "Otorga un 50% más de Poder de habilidad.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Eco de Luden",
@@ -178,7 +220,9 @@
       "description": "Inflige 120/160/200 de daño mágico (progresa con el nivel de estrellas del portador).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Relicario de los Solari de Hierro",
@@ -186,7 +230,9 @@
       "description": "Otorga un escudo de 250/275/300 de daño durante 8 s a los aliados que estén hasta dos hexágonos de distancia en la misma fila.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Chispa Iónica",
@@ -194,7 +240,9 @@
       "description": "Los enemigos que lanzan una habilidad dentro de un radio de 3 hexágonos en torno al portador reciben una descarga de daño mágico equivalente al 200% de su maná máximo. También reduce en un 50% la resistencia mágica de los enemigos cercanos (no se acumula).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Morellonomicón",
@@ -202,7 +250,9 @@
       "description": "Los hechizos hacen daño equivalente a un 18% de la vida máxima a lo largo de 10 segundos e impiden el 80% de cualquier curación hasta que termine el efecto.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Guantelete enjoyado",
@@ -210,7 +260,9 @@
       "description": "Los hechizos hacen daño equivalente a un 18% de la vida máxima a lo largo de 10 segundos e impiden el 80% de cualquier curación hasta que termine el efecto.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Manto de oscuridad",
@@ -218,7 +270,9 @@
       "description": "El portador es también Anochecer (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     }
   ],
   "tear": [
@@ -228,7 +282,9 @@
       "description": "Tras realizar una habilidad, recuperas un 18% del maná por ataque.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Daga de Statikk",
@@ -236,7 +292,9 @@
       "description": "Inflige 70 de daño mágico a 3/4/5 enemigos (progresa con el nivel de estrellas del portador).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Eco de Luden",
@@ -244,7 +302,9 @@
       "description": "Inflige 120/160/200 de daño mágico (progresa con el nivel de estrellas del portador).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Mejora azul",
@@ -252,7 +312,9 @@
       "description": "Después de lanzar una habilidad, el maná del portador se establece en 20.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Corazón de Hielo",
@@ -260,7 +322,9 @@
       "description": "Los enemigos adyacentes pierden un 40% de Velocidad de ataque.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Cáliz de Favor",
@@ -268,7 +332,9 @@
       "description": "Cada vez que lanzas un hechizo, otorga 10 de maná a todos los aliados cercanos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Redención",
@@ -276,7 +342,9 @@
       "description": "El portador cura 800 de vida a todo su equipo al morir.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Mano de la Justicia",
@@ -284,7 +352,9 @@
       "description": "Al comienzo de una ronda, otorga un 50% de daño adicional por cada ataque o 50 de vida al golpear.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Gorro de Mago",
@@ -292,7 +362,9 @@
       "description": "El portador es también Mago (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     }
   ],
   "vest": [
@@ -302,7 +374,9 @@
       "description": "Revives con hasta 400 puntos de vida tras 2 segundos (se puede activar una vez por combate).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Resolución titánica",
@@ -310,7 +384,9 @@
       "description": "Cuando el portador recibe o inflige un golpe crítico, obtiene un 2% de daño adicional, acumulable hasta el 100%. Con 50 acumulaciones, el portador aumenta de tamaño y obtiene 25 de armadura y resistencia mágica. Se reinicia cada ronda.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Relicario de los Solari de Hierro",
@@ -318,7 +394,9 @@
       "description": "Otorga un escudo de 250/275/300 de daño durante 8 s a los aliados que estén hasta dos hexágonos de distancia en la misma fila.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Corazón de Hielo",
@@ -326,7 +404,9 @@
       "description": "Los enemigos adyacentes pierden un 40% de Velocidad de ataque.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Chaleco de zarzas",
@@ -334,7 +414,9 @@
       "description": "Anula el daño adicional de los golpes críticos recibidos. Al ser golpeado por un ataque básico, inflige 80/120/160 de daño mágico a todos los enemigos cercanos (una vez cada 1 s como máximo). Progresa con el nivel de estrellas del portador.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Protector pétreo de gárgola",
@@ -342,7 +424,9 @@
       "description": "Otorga +12 de armadura y resistencia mágica por cada enemigo que marque como objetivo al portador.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Capa de fuego solar",
@@ -350,7 +434,9 @@
       "description": "Se aplica a un enemigo aleatorio en un radio de 2 hexágonos cada segundo. El daño es ahora un 25 % de la vida máxima de la unidad afectada como daño verdadero a lo largo de 10 s.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Velo de Sosiego",
@@ -358,7 +444,9 @@
       "description": "Al empezar el combate, lanza un rayo que aumenta en un 40% el maná máximo de los enemigos hasta que lancen su habilidad por primera vez.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Coraza de Vanguardia",
@@ -366,7 +454,9 @@
       "description": "El portador es también Vanguardia (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     }
   ],
   "coat": [
@@ -376,7 +466,9 @@
       "description": "Los ataques básicos curan al portador un +40% de vida.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Huracán de Runaan",
@@ -384,7 +476,9 @@
       "description": "Los ataques básicos disparan un proyectil adicional a otro enemigo cercano que inflige un 70% del daño de ataque del portador y aplica efectos de impacto.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Chispa Iónica",
@@ -392,7 +486,9 @@
       "description": "Los enemigos que lanzan una habilidad dentro de un radio de 3 hexágonos en torno al portador reciben una descarga de daño mágico equivalente al 200% de su maná máximo. También reduce en un 50% la resistencia mágica de los enemigos cercanos (no se acumula).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Cáliz de Favor",
@@ -400,7 +496,9 @@
       "description": "Cada vez que lanzas un hechizo, otorga 10 de maná a todos los aliados cercanos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Protector pétreo de gárgola",
@@ -408,7 +506,9 @@
       "description": "Otorga +12 de armadura y resistencia mágica por cada enemigo que marque como objetivo al portador.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Garra de Dragón",
@@ -416,7 +516,9 @@
       "description": "Gana un 50% de resistencia al daño mágico.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Céfiro",
@@ -424,7 +526,9 @@
       "description": " Al principio del combate, desvanece al enemigo más cercano al lado opuesto durante 5 segundos (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Fajín",
@@ -432,7 +536,9 @@
       "description": "[Único] El portador es inmune al control de adversario durante los primeros 10 segundos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Reliquia de Bosque Ancestral",
@@ -440,7 +546,9 @@
       "description": "El portador también es Bosque Ancestral (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     }
   ],
   "belt": [
@@ -450,7 +558,9 @@
       "description": "Emite un aura que afecta a todos los aliados a un máximo de dos casillas de distancia a izquierda y derecha del portador y aumenta la velocidad de ataque un 18%.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Portal Zz'Rot",
@@ -458,7 +568,9 @@
       "description": "Al morir, invoca un ente del Vacío con 1000/2000/4000 de vida que provoca a todos los enemigos cercanos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Morellonomicón",
@@ -466,7 +578,9 @@
       "description": "Los hechizos hacen daño equivalente a un 18% de la vida máxima a lo largo de 10 segundos e impiden el 80% de cualquier curación hasta que termine el efecto.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Redención",
@@ -474,7 +588,9 @@
       "description": "El portador cura 800 de vida a todo su equipo al morir.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Capa de fuego solar",
@@ -482,7 +598,9 @@
       "description": "Se aplica a un enemigo aleatorio en un radio de 2 hexágonos cada segundo. El daño es ahora un 25 % de la vida máxima de la unidad afectada como daño verdadero a lo largo de 10 s.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Céfiro",
@@ -490,7 +608,9 @@
       "description": " Al principio del combate, desvanece al enemigo más cercano al lado opuesto durante 5 segundos (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Armadura de Warmog",
@@ -498,7 +618,9 @@
       "description": "El portador regenera un 5% de la vida que falte, con un máximo de 150 de vida por activación.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Garra Trampa",
@@ -506,7 +628,9 @@
       "description": "Al comenzar el combate, otorga un escudo de hechizos. Cuando desaparece, aturde al campeón que lo ha roto. Dura 4 segundos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Estandarte de Señor de la Guerra",
@@ -514,7 +638,9 @@
       "description": "El portador es también Señor de la Guerra (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     }
   ],
   "gloves": [
@@ -524,7 +650,9 @@
       "description": "El daño crítico se incrementa un 100%.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Últimas palabras",
@@ -532,7 +660,9 @@
       "description": "Los golpes críticos reducen la armadura del objetivo en un 90% durante 3 s. Este efecto no se acumula.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Guantelete enjoyado",
@@ -540,7 +670,9 @@
       "description": "Los hechizos hacen daño equivalente a un 18% de la vida máxima a lo largo de 10 segundos e impiden el 80% de cualquier curación hasta que termine el efecto.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Mano de la Justicia",
@@ -548,7 +680,9 @@
       "description": "Al comienzo de una ronda, otorga un 50% de daño adicional por cada ataque o 50 de vida al golpear.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Velo de Sosiego",
@@ -556,7 +690,9 @@
       "description": "Al empezar el combate, lanza un rayo que aumenta en un 40% el maná máximo de los enemigos hasta que lancen su habilidad por primera vez.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Fajín",
@@ -564,7 +700,9 @@
       "description": "[Único] El portador es inmune al control de adversario durante los primeros 10 segundos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Garra Trampa",
@@ -572,7 +710,9 @@
       "description": "Al comenzar el combate, otorga un escudo de hechizos. Cuando desaparece, aturde al campeón que lo ha roto. Dura 4 segundos.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Guantes de Ladrón",
@@ -580,7 +720,9 @@
       "description": "Este objeto ocupa los tres huecos para objetos. Al principio de cada fase de planificación el portador cuenta con dos objetos de forma temporal (que aumentan su poder según el nivel del jugador).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Filo fantasmal de Youmuu",
@@ -588,7 +730,9 @@
       "description": "El campeón también es Asesino (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     }
   ],
   "spatula": [
@@ -598,7 +742,9 @@
       "description": "El portador es también Divino (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Ímpetu de duelista",
@@ -606,7 +752,9 @@
       "description": "El portador es también Duelista (solo uno por campeón).\n",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Manto de oscuridad",
@@ -614,7 +762,9 @@
       "description": "El portador es también Anochecer (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Gorro de Mago",
@@ -622,7 +772,9 @@
       "description": "El portador es también Mago (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Coraza de Vanguardia",
@@ -630,7 +782,9 @@
       "description": "El portador es también Vanguardia (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Reliquia de Bosque Ancestral",
@@ -638,7 +792,9 @@
       "description": "El portador también es Bosque Ancestral (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Estandarte de Señor de la Guerra",
@@ -646,7 +802,9 @@
       "description": "El portador es también Señor de la Guerra (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Filo fantasmal de Youmuu",
@@ -654,7 +812,9 @@
       "description": "El campeón también es Asesino (solo uno por campeón).",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     },
     {
       "name": "Fuerza de la Naturaleza",
@@ -662,7 +822,9 @@
       "description": "El tamaño máximo del equipo del portador aumenta en 1.0.",
       "bonusImgUrl_1": "",
       "bonusImgUrl_2": "",
-      "passive": ""
+      "passive": "Pasiva no acumulable",
+      "subItem_1": "",
+      "subItem_2": ""
     }
   ]
 }

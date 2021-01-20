@@ -20,4 +20,10 @@ class Items {
 
     @SerializedName("passive")
     var passive: String = ""
+
+    @SerializedName("subItem_1")
+    var subItem_1: String = ""
+
+    @SerializedName("subItem_2")
+    var subItem_2: String = ""
 }

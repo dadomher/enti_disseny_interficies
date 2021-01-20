@@ -44,10 +44,6 @@ class NewsAdapter(val newsList: List<News>):RecyclerView.Adapter<NewsAdapter.New
                 intent.putExtra("WEB_PAGE", newsList.url);
                 context.startActivity(intent)
 
-
-                 /*
-                 context.startActivity(Intent(context, WebViewActivity::class.java))
-                  */
             }
 
         }

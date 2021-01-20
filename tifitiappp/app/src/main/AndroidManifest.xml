@@ -26,6 +26,10 @@
             android:label="Web"
             android:parentActivityName=".MainActivity">
         </activity>
+        <activity android:name=".ObjectsInfoActivity"
+            android:label="Web"
+            android:parentActivityName=".MainActivity">
+        </activity>
 
         <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
