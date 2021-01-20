@@ -12,10 +12,12 @@ class WebViewActivity : AppCompatActivity() {
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        val webPage = intent.getStringExtra("WEB_PAGE")
+
         setContentView(R.layout.activity_webview)
 
         webView = findViewById<View>(R.id.webView) as WebView
         webView!!.settings.javaScriptEnabled = true
-        //webView!!.loadUrl("")
+        webView!!.loadUrl(webPage.toString())
     }
 }
