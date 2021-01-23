@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bearslovebeer.tifitiappp.activity.ObjectsInfoActivity
 import com.bearslovebeer.tifitiappp.R
 import com.bearslovebeer.tifitiappp.models.ListItems_v2
 import com.squareup.picasso.Picasso

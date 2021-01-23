@@ -1,9 +1,10 @@
-package com.bearslovebeer.tifitiappp
+package com.bearslovebeer.tifitiappp.activity
 
 import android.os.Bundle
 import android.view.View
 import android.webkit.WebView
 import androidx.appcompat.app.AppCompatActivity
+import com.bearslovebeer.tifitiappp.R
 
 class WebViewActivity : AppCompatActivity() {
 

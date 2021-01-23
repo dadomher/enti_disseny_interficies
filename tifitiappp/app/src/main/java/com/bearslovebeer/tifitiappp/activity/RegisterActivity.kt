@@ -1,4 +1,4 @@
-package com.bearslovebeer.tifitiappp
+package com.bearslovebeer.tifitiappp.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +8,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import com.bearslovebeer.tifitiappp.Constants
+import com.bearslovebeer.tifitiappp.R
 import com.bearslovebeer.tifitiappp.models.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth

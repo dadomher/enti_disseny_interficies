@@ -7,7 +7,7 @@
     android:layout_margin="@dimen/layout_margin_medium"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".RegisterActivity">
+    tools:context=".activity.RegisterActivity">
 
     <!-- Email -->
     <EditText

@@ -5,10 +5,9 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bearslovebeer.tifitiappp.R
-import com.bearslovebeer.tifitiappp.WebViewActivity
+import com.bearslovebeer.tifitiappp.activity.WebViewActivity
 import com.bearslovebeer.tifitiappp.models.News
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_news.view.*

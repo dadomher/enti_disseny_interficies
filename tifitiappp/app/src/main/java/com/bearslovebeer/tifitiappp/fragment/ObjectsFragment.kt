@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bearslovebeer.tifitiappp.R
 import com.bearslovebeer.tifitiappp.adapter.ObjectsAdapter
-import com.bearslovebeer.tifitiappp.models.ListItems
 import com.bearslovebeer.tifitiappp.models.ListItems_v2
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.fragment_objects.*
@@ -42,7 +41,7 @@ class ObjectsFragment : Fragment() {
 
         try {
             // Create InputStream
-            input = context.assets.open("json_data_v2.json")
+            input = context.assets.open("json_objectsData.json")
 
             val size = input.available()
 
