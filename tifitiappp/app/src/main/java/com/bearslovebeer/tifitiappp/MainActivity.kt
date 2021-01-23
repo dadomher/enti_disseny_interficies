@@ -2,12 +2,8 @@ package com.bearslovebeer.tifitiappp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.FrameLayout
 import androidx.fragment.app.FragmentTransaction
-import com.bearslovebeer.tifitiappp.fragment.ChatFragment
-import com.bearslovebeer.tifitiappp.fragment.NewsFragment
-import com.bearslovebeer.tifitiappp.fragment.ObjectsFragment
-import com.bearslovebeer.tifitiappp.fragment.profileFragment
+import com.bearslovebeer.tifitiappp.fragment.*
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
@@ -17,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     //Create our five fragments object
     lateinit var newsFragment: NewsFragment
     lateinit var objectsFragment: ObjectsFragment
-    lateinit var champsFragment: champsFragment
+    lateinit var twitchFragment: TwitchFragment
     lateinit var chatFragment: ChatFragment
     lateinit var profileFragment: profileFragment
 
@@ -58,11 +54,12 @@ class MainActivity : AppCompatActivity() {
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
                         .commit()
                 }
-                R.id.champs -> {
-                    champsFragment = champsFragment()
+                R.id.twitch -> {
+                    twitchFragment =
+                        TwitchFragment()
                     supportFragmentManager
                         .beginTransaction()
-                        .replace(R.id.frameLayout,champsFragment)
+                        .replace(R.id.frameLayout,twitchFragment)
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
                         .commit()
                 }
@@ -94,8 +91,5 @@ class MainActivity : AppCompatActivity() {
         val adView = findViewById<AdView>(R.id.adView)
         val adRequest = AdRequest.Builder().build()
         adView.loadAd(adRequest)
-
     }
-
-
 }

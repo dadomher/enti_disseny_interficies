@@ -13,8 +13,8 @@
         />
 
     <item
-        android:id="@+id/champs"
-        android:title="Champs"
+        android:id="@+id/twitch"
+        android:title="Twitch"
         android:icon="@drawable/ic_action_champs"
         />
 

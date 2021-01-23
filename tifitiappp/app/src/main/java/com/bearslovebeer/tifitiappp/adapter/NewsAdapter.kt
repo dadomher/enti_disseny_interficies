@@ -40,6 +40,7 @@ class NewsAdapter(val newsList: List<News>):RecyclerView.Adapter<NewsAdapter.New
 
             view.setOnClickListener{
                 val intent = Intent(context, WebViewActivity::class.java)
+                intent.putExtra("FRAGMENT", "NEWS")
                 intent.putExtra("WEB_PAGE", newsList.url);
                 context.startActivity(intent)
 
