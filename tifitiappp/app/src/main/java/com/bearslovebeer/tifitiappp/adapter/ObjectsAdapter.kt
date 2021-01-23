@@ -2,15 +2,11 @@ package com.bearslovebeer.tifitiappp.adapter
 
 import android.content.Context
 import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bearslovebeer.tifitiappp.ObjectsInfoActivity
 import com.bearslovebeer.tifitiappp.R
-import com.bearslovebeer.tifitiappp.WebViewActivity
-import com.bearslovebeer.tifitiappp.models.ListItems
 import com.bearslovebeer.tifitiappp.models.ListItems_v2
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_objects.view.*

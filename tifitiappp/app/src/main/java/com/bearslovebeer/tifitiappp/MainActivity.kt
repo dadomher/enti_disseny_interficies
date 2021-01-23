@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         //now let's create our framelayout and bottomnav variables
         var bottomnav = findViewById<BottomNavigationView>(R.id.BottomNavMenu)
-        var frame:FrameLayout = findViewById<FrameLayout>(R.id.frameLayout)
+
         //now let's the default fragment
         newsFragment = NewsFragment()
         supportFragmentManager

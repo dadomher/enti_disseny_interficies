@@ -25,6 +25,9 @@
     <string name="gloves_tv">Gloves objects: </string>
     <string name="spatula_tv">Spatula objects: </string>
 
+    // OBJECTS_INFO FRAGMENT
+    <string name="cerrar_bt">Cerrar</string>
+
     // TOAST ALERTS
     <string name="error_mail_invalid">Email is not valid.</string>
     <string name="error_password_invalid">Password must be at least %d chars long and contain letters &amp; numbers.</string>

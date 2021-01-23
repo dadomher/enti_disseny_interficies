@@ -13,6 +13,6 @@ class UserLocalDataSource {
 
     fun saveUsername(context: Context, username: String) {
         val sharedPrefs = context.getSharedPreferences(preferencesFileName, Context.MODE_PRIVATE)
-        sharedPrefs.edit().putString("username", null).apply()
+        sharedPrefs.edit().putString(username, null).apply()
     }
 }

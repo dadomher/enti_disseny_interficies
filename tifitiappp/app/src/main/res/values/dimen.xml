@@ -13,4 +13,10 @@
 
     <dimen name="descriptionSize">12sp</dimen>
     <dimen name="titleSize">14sp</dimen>
+
+    //ObjectInfo fragment
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="medium_margin">10dp</dimen>
+    <dimen name="imgUrl_size">60dp</dimen>
+    <dimen name="subItem_size">25dp</dimen>
 </resources>
