@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_window"
     android:layout_width="match_parent"
-    android:layout_height="300dp"
+    android:layout_height="200dp"
+    android:layout_gravity="bottom|center"
+    android:background="@android:color/white"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -24,7 +27,7 @@
             android:text="Cerrar" />
     </RelativeLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -41,22 +44,39 @@
 
         <TextView
             android:id="@+id/pasiva_tv"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
+            android:gravity="right"
             android:text="Pasiva" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/url_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/subItem_1"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <ImageView
+                android:id="@+id/subItem_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/description_tv"
@@ -65,19 +85,6 @@
             android:layout_alignParentRight="true"
             android:text="Description" />
 
-    </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/subItem_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <ImageView
-            android:id="@+id/subItem_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
     </LinearLayout>
+
 </LinearLayout>

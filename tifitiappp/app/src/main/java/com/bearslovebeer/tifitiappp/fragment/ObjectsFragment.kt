@@ -17,6 +17,7 @@ import java.io.InputStream
 
 class ObjectsFragment : Fragment() {
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

@@ -27,6 +27,7 @@
             android:parentActivityName=".MainActivity">
         </activity>
         <activity android:name=".ObjectsInfoActivity"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar">
             android:label="Web"
             android:parentActivityName=".MainActivity">
         </activity>
