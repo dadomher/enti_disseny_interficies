@@ -3,6 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'com.google.gms.google-services'
     id 'kotlin-android-extensions'
+    id 'kotlinx-serialization'
 }
 
 android {
@@ -73,4 +74,13 @@ dependencies {
     implementation "com.squareup.picasso:picasso:$picassoVersion"
 
     implementation 'com.google.code.gson:gson:2.8.6'
+
+    // Ktor (HTTPClient)
+    implementation "io.ktor:ktor-client-okhttp:1.5.0"
+    // Coroutines (Mulithreading)
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2'
+    // Lifecycle Scope
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
+    // Kotlinx String to Json conversion
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1"
 }
