@@ -1,7 +1,9 @@
 package com.bearslovebeer.tifitiappp.models
 
 import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class OAuthTokensResponse (
     @SerialName("access_token") val accessToken: String,
     @SerialName("refresh_token")val refreshToken: String? = null,

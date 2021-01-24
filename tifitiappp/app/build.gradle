@@ -77,10 +77,14 @@ dependencies {
 
     // Ktor (HTTPClient)
     implementation "io.ktor:ktor-client-okhttp:1.5.0"
+    implementation "io.ktor:ktor-client-json:1.5.0"
+    implementation "io.ktor:ktor-client-serialization-jvm:1.5.0"
+
     // Coroutines (Mulithreading)
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2'
     // Lifecycle Scope
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
     // Kotlinx String to Json conversion
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1"
+
 }

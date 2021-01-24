@@ -11,15 +11,19 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.bearslovebeer.tifitiappp.Constants
 import com.bearslovebeer.tifitiappp.R
+import com.bearslovebeer.tifitiappp.models.OAuthTokensResponse
+import com.bearslovebeer.tifitiappp.services.NetworkManager
+import com.bearslovebeer.tifitiappp.services.UserManager
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.okhttp.OkHttp
+import io.ktor.client.features.json.JsonFeature
+import io.ktor.client.features.json.serializer.KotlinxSerializer
 import io.ktor.client.request.parameter
 import io.ktor.client.request.post
-import io.ktor.client.statement.HttpStatement
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.json.Json
 
 class WebViewActivity : AppCompatActivity() {
 
@@ -35,28 +39,31 @@ class WebViewActivity : AppCompatActivity() {
 
         val fragment = intent.getStringExtra("FRAGMENT")
 
-        if(fragment.equals("TWITCH")) {
+        if (fragment.equals("TWITCH")) {
             loadOAuthUrl()
-        } else if(fragment.equals("NEWS")) {
+        } else if (fragment.equals("NEWS")) {
             val webPage = intent.getStringExtra("WEB_PAGE")
             webView!!.loadUrl(webPage.toString())
-       }
+        }
 
 
     }
 
-    private fun loadOAuthUrl(){
+    private fun loadOAuthUrl() {
 
         val uri = Uri.parse("https://id.twitch.tv/oauth2/authorize")
-                .buildUpon()
-                .appendQueryParameter("client_id", Constants.OAUTH_CLIENT_ID)
-                .appendQueryParameter("redirect_uri", Constants.OAUTH_REDIRECT_URI)
-                .appendQueryParameter("response_type", "code")
-                .appendQueryParameter("scope", listOf("user:edit", "user:read:email").joinToString(" "))
+            .buildUpon()
+            .appendQueryParameter("client_id", Constants.OAUTH_CLIENT_ID)
+            .appendQueryParameter("redirect_uri", Constants.OAUTH_REDIRECT_URI)
+            .appendQueryParameter("response_type", "code")
+            .appendQueryParameter("scope", listOf("user:edit", "user:read:email").joinToString(" "))
 
         webView!!.webViewClient = object : WebViewClient() {
-            override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {
-                if(request?.url?.toString()?.startsWith(Constants.OAUTH_REDIRECT_URI) == true) {
+            override fun shouldOverrideUrlLoading(
+                view: WebView?,
+                request: WebResourceRequest?
+            ): Boolean {
+                if (request?.url?.toString()?.startsWith(Constants.OAUTH_REDIRECT_URI) == true) {
                     // Login success!
                     Log.i(TAG, "Login succsess with URL: ${request?.url}")
                     request.url.getQueryParameter("code").let {
@@ -79,22 +86,33 @@ class WebViewActivity : AppCompatActivity() {
     }
 
     private fun getAccessTokens(authorizationCode: String) {
-        val httpClient = HttpClient(OkHttp)
+        val httpClient = NetworkManager.createHttpClient()
 
         // Assign to Activity Scope
         lifecycleScope.launch {
 
             //Change to Background Thread
             withContext(Dispatchers.IO) {
+                try {
+                    val response: OAuthTokensResponse =
+                        httpClient.post<OAuthTokensResponse>("https://id.twitch.tv/oauth2/token") {
+                            parameter("client_id", Constants.OAUTH_CLIENT_ID)
+                            parameter("client_secret", Constants.OAUTH_CLIENT_SECRET)
+                            parameter("code", authorizationCode)
+                            parameter("grant_type", "authorization_code")
+                            parameter("redirect_uri", Constants.OAUTH_REDIRECT_URI)
+                        }
+                    Log.i(TAG, "Got response from Twitch: $response")
 
-                val response: String = httpClient.post<String>("https://id.twitch.tv/oauth2/token") {
-                    parameter("client_id", Constants.OAUTH_CLIENT_ID)
-                    parameter("client_secret", Constants.OAUTH_CLIENT_SECRET)
-                    parameter("code", authorizationCode)
-                    parameter("grant_type", "authorization_code")
-                    parameter("redirect_uri", Constants.OAUTH_REDIRECT_URI)
+                    // Save Access token
+                    UserManager(this@WebViewActivity).saveAccessToken(response.accessToken)
+
+                    //Close
+                    finish()
+                } catch (t: Throwable) {
+                    // TODO: Handle error
+
                 }
-                Log.i(TAG, "Got response from Twitch: $response")
             }
         }
     }
