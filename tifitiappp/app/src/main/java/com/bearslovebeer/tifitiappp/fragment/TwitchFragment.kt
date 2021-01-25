@@ -41,6 +41,7 @@ class TwitchFragment : Fragment() {
 
         initViews(view)
         initListeners()
+        getTopGames()
     }
 
     override fun onResume() {
@@ -79,11 +80,13 @@ class TwitchFragment : Fragment() {
 
                 // Get Top Games
                 try {
-                    val response = httpClient.get<String>("https://api.twitch.tv/helix/search/categories?query=fort") {
+                    // QUERY = (GAME_ID(TFT_ID) & LANGUAGE=ESPAÑOL & FIRST=TOP 10 CANALES)
+                    val response = httpClient.get<String>("https://api.twitch.tv/helix/streams?game_id=513143&language=es&first=10") {
                         header("Client-Id", Constants.OAUTH_CLIENT_ID)
                         header("Authorization", "Bearer $accessToken")
                         //parameter()
                     }
+
                     Log.i("Streams", "Got TFT games: $response")
                     // Change to Main Thread
                     withContext(Dispatchers.Main) {
