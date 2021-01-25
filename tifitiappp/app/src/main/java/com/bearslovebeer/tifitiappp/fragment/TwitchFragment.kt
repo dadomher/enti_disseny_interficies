@@ -9,18 +9,27 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.bearslovebeer.tifitiappp.Constants
 import com.bearslovebeer.tifitiappp.R
 import com.bearslovebeer.tifitiappp.activity.WebViewActivity
+import com.bearslovebeer.tifitiappp.adapter.ChannelsAdapter
+import com.bearslovebeer.tifitiappp.adapter.ObjectsAdapter
+import com.bearslovebeer.tifitiappp.models.Channel
+import com.bearslovebeer.tifitiappp.models.ListChannels
 import com.bearslovebeer.tifitiappp.services.NetworkManager
 import com.bearslovebeer.tifitiappp.services.UserManager
+import com.google.gson.Gson
 import io.ktor.client.features.*
 import io.ktor.client.request.*
 import kotlinx.android.synthetic.main.fragment_chat.*
+import kotlinx.android.synthetic.main.fragment_objects.*
+import kotlinx.android.synthetic.main.fragment_twitch.*
 import kotlinx.android.synthetic.main.fragment_twitch.view.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.json.Json
 
 class TwitchFragment : Fragment() {
 
@@ -78,20 +87,23 @@ class TwitchFragment : Fragment() {
 
                 val accessToken = UserManager(requireContext()).getAccesToken()
 
+
                 // Get Top Games
                 try {
                     // QUERY = (GAME_ID(TFT_ID) & LANGUAGE=ESPAÑOL & FIRST=TOP 10 CANALES)
-                    val response = httpClient.get<String>("https://api.twitch.tv/helix/streams?game_id=513143&language=es&first=10") {
+
+                    var response = httpClient.get<ListChannels>("https://api.twitch.tv/helix/streams?game_id=513143&language=es&first=3") {
                         header("Client-Id", Constants.OAUTH_CLIENT_ID)
                         header("Authorization", "Bearer $accessToken")
-                        //parameter()
                     }
 
-                    Log.i("Streams", "Got TFT games: $response")
+                    Log.i("AVER", response.toString())
+
+
                     // Change to Main Thread
                     withContext(Dispatchers.Main) {
                         // TODO: Update UI
-
+                        //initRecycler(response)
                     }
                 } catch (t:Throwable) {
                     // TODO: Handle error
@@ -99,5 +111,11 @@ class TwitchFragment : Fragment() {
                 }
             }
         }
+    }
+
+    private fun initRecycler(result: ListChannels) {
+        twitchRecyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        var adapter = ChannelsAdapter(result)
+        twitchRecyclerView.adapter = adapter
     }
 }
