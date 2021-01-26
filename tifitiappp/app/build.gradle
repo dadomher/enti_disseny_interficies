@@ -60,6 +60,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore-ktx'
     // ADS
     implementation 'com.google.android.gms:play-services-ads:19.6.0'
+    // Firebase STORAGE
+    implementation 'com.google.firebase:firebase-storage-ktx'
 
     // Card View
     def cardview_version = "1.0.0"
@@ -87,4 +89,7 @@ dependencies {
     // Kotlinx String to Json conversion
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1"
 
+    // Image Loading
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 }

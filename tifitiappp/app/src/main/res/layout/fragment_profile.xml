@@ -25,6 +25,20 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Welcome!" />
+
+        <Button
+            android:id="@+id/avatarButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Choose your Avatar" />
+
+        <ImageView
+            android:id="@+id/avatarImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/googleg_standard_color_18"/>
     </LinearLayout>
 
 </LinearLayout>
