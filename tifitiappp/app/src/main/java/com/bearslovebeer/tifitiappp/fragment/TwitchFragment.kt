@@ -19,6 +19,7 @@ import com.bearslovebeer.tifitiappp.models.Channel
 import com.bearslovebeer.tifitiappp.models.ListChannels
 import com.bearslovebeer.tifitiappp.services.NetworkManager
 import com.bearslovebeer.tifitiappp.services.UserManager
+import com.bearslovebeer.tifitiappp.viewmodel.StreamsViewModel
 import com.google.gson.Gson
 import io.ktor.client.features.*
 import io.ktor.client.request.*
@@ -35,6 +36,9 @@ class TwitchFragment : Fragment() {
 
     private lateinit var twitchLoginButton: Button
 
+    // TODO: Use Android ViewModel
+    private val streamsViewModel by lazy { StreamsViewModel(UserManager(requireContext())) }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -50,12 +54,12 @@ class TwitchFragment : Fragment() {
 
         initViews(view)
         initListeners()
-        getTopGames()
+        initObservers()
     }
 
     override fun onResume() {
         super.onResume()
-        checkUserAvalability()
+        streamsViewModel.checkUserAvalability()
     }
 
     private fun initViews(view: View) {
@@ -68,49 +72,28 @@ class TwitchFragment : Fragment() {
             intent.putExtra("FRAGMENT", "TWITCH")
             startActivity(intent)
         }
+
+        /*swipeToRefresh.setOnRefreshListener {
+            streamsViewModel.onRefresh()
+        }*/
     }
 
-    private fun checkUserAvalability() {
-        val isLoggedIn = UserManager(requireContext()).getAccesToken() != null
-        if(isLoggedIn) {
-            twitchLoginButton.visibility = View.GONE
-        } else {
-            twitchLoginButton.visibility = View.VISIBLE
-        }
-    }
+    // TODO: Refactor to ViewModel
+    private fun initObservers() {
 
-    private fun getTopGames() {
-        val httpClient = NetworkManager.createHttpClient()
-
-        viewLifecycleOwner.lifecycleScope.launch {
-            withContext(Dispatchers.IO) {
-
-                val accessToken = UserManager(requireContext()).getAccesToken()
-
-
-                // Get Top Games
-                try {
-                    // QUERY = (GAME_ID(TFT_ID) & LANGUAGE=ESPAÑOL & FIRST=TOP 10 CANALES)
-
-                    var response = httpClient.get<ListChannels>("https://api.twitch.tv/helix/streams?game_id=513143&language=es&first=3") {
-                        header("Client-Id", Constants.OAUTH_CLIENT_ID)
-                        header("Authorization", "Bearer $accessToken")
-                    }
-
-                    Log.i("AVER", response.toString())
-
-
-                    // Change to Main Thread
-                    withContext(Dispatchers.Main) {
-                        // TODO: Update UI
-                        //initRecycler(response)
-                    }
-                } catch (t:Throwable) {
-                    // TODO: Handle error
-
-                }
+        streamsViewModel.isLoggedIn.observe(viewLifecycleOwner) { isLoggedIn: Boolean ->
+            if(isLoggedIn) {
+                twitchLoginButton.visibility = View.GONE
+            } else {
+                twitchLoginButton.visibility = View.VISIBLE
             }
         }
+
+        //streamsViewModel.tftGames.observe(viewLifecycleOwner) {
+            // TODO
+            // adapter.tftFanes = it
+            // adapter.notifyDataSetChanged()
+        //}
     }
 
     private fun initRecycler(result: ListChannels) {
