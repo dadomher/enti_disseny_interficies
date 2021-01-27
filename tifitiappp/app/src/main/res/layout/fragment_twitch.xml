@@ -12,11 +12,9 @@
         android:layout_height="48dp"
         android:text="Login with Twitch"/>
 
-    <androidx.recyclerview.widget.RecyclerView
+    <!--<androidx.recyclerview.widget.RecyclerView
         android:id="@+id/twitchRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"/>-->
 
 </LinearLayout>
-
-    <!--tools:context=".fragment.TwitchFragment"-->

@@ -17,7 +17,7 @@ import kotlinx.coroutines.withContext
 
 // TODO: Use Android ViewModel
 class StreamsViewModel(
-    private val userManager: UserManager,
+    private val userManager: UserManager
 ) {
 
     var isLoggedIn = MutableLiveData<Boolean>()
@@ -26,16 +26,29 @@ class StreamsViewModel(
     val tftGames = MutableLiveData<List<Any>>()
     val errors = MutableLiveData<String>()
 
+    // Query with the 3 best top spanish channels
+    var query = "https://api.twitch.tv/helix/streams?game_id=513143&language=es&first=3"
+
+    // Query with the 3 best top channels of tft on the world
+    var query1 = "https://api.twitch.tv/helix/streams?game_id=513143&first=3"
+
+    // Query with the first 10 tft spanish games of yesterday
+    var query2 = "https://api.twitch.tv/helix/videos?game_id=513143&language=es&first=10&period=day"
+
+    //Query with the first 10 tft games of yesterday on the world
+    var query3 = "https://api.twitch.tv/helix/videos?game_id=513143&first=10&period=day"
+
+
     // region Public methods
     fun checkUserAvalability() {
         val isLoggedIn = userManager.getAccesToken() != null
         this.isLoggedIn.postValue(isLoggedIn)
-        if(isLoggedIn) getTopGames()
+        if(isLoggedIn) doAllPetitions()
     }
 
     fun onRefresh() {
         // TODO: Get TFT Channels
-        getTopGames()
+        doAllPetitions()
     }
 
     fun logout() {
@@ -44,8 +57,14 @@ class StreamsViewModel(
     // endregion
 
     // region Private methods
+    private fun doAllPetitions() {
+        getTwitchInformation(query, 0)
+        getTwitchInformation(query1, 1)
+        getTwitchInformation(query2, 2)
+        getTwitchInformation(query3, 3)
+    }
 
-    private fun getTopGames() {
+    private fun getTwitchInformation(query: String, numberOfQuery: Int) {
         val httpClient = NetworkManager.createHttpClient()
         // ViewModelScope
 
@@ -59,12 +78,15 @@ class StreamsViewModel(
                     try {
                         // QUERY = (GAME_ID(TFT_ID) & LANGUAGE=ESPAÑOL & FIRST=TOP 10 CANALES)
 
-                        var response = httpClient.get<String>("https://api.twitch.tv/helix/streams?game_id=513143&language=es&first=3") {
+                        var response = httpClient.get<String>(query) {
                             header("Client-Id", Constants.OAUTH_CLIENT_ID)
                             header("Authorization", "Bearer $accessToken")
                         }
 
-                        Log.i("AVER", response)
+                        if(numberOfQuery==0) Log.i("QueryResult", "3TopSpaChannels: "+response)
+                        if(numberOfQuery==1) Log.i("QueryResult", "3TopWorldChannels: "+response)
+                        if(numberOfQuery==2) Log.i("QueryResult", "Yes10TopSpaChannels: "+response)
+                        else Log.i("QueryResult", "Yes10TopWorldChannels: "+response)
 
                         // Change to Main Thread
                         withContext(Dispatchers.Main) {
@@ -75,7 +97,6 @@ class StreamsViewModel(
                     } catch (t:Throwable) {
                         // TODO: Handle error
                         errors.postValue(t.message)
-                        Log.i("AVER", t.message.toString())
                     }
                 }
 

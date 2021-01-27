@@ -97,8 +97,8 @@ class TwitchFragment : Fragment() {
     }
 
     private fun initRecycler(result: ListChannels) {
-        twitchRecyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+        /*twitchRecyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         var adapter = ChannelsAdapter(result)
-        twitchRecyclerView.adapter = adapter
+        twitchRecyclerView.adapter = adapter*/
     }
 }
