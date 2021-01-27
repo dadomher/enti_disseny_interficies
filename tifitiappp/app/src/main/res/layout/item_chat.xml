@@ -2,31 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_margin_XL"
     android:layout_margin="8dp"
-    android:layout_height="@dimen/layout_margin_XL">
+    android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/messageLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_gravity="left"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/usernameTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             tools:text="Username" />
-
         <TextView
             android:id="@+id/messageTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             tools:text="Message text" />
 
-        <TextView
-            android:id="@+id/messageDateTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:text="12:34:10, 1/12/20" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/messageDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        tools:text="12:34:10, 1/12/20" />
+
 </LinearLayout>

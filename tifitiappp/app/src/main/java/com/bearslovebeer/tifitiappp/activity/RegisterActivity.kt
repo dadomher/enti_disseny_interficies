@@ -110,7 +110,7 @@ class RegisterActivity : AppCompatActivity() {
                         // TODO: 1 - Create User profile (BDD) [userID + username]
                         auth.currentUser?.uid?.let { userID ->  //cuando se completa cojo el id del usuario
                             // Create User Model
-                            val user = User(userId = userID, username = username)
+                            val user = User(userId = userID, username = username, email = email)
                             // Set Document to Firestone
                             firestore
                                     .collection(Constants.COLLECTION_USERS)

@@ -27,7 +27,7 @@ class ChannelsAdapter (val channel: ListChannels): RecyclerView.Adapter<Channels
         )
     }
 
-    override fun getItemCount(): Int = channel.data.size
+    override fun getItemCount(): Int = channel.data!!.size
 
     override fun onBindViewHolder(holder: ItemsHolder, position: Int) {
         holder.render(channel, context)

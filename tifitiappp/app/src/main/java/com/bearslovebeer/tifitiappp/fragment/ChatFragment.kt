@@ -19,10 +19,11 @@ import com.bearslovebeer.tifitiappp.models.Chat
 import com.bearslovebeer.tifitiappp.models.User
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
+import java.text.SimpleDateFormat
 import java.util.*
-
 
 class ChatFragment : Fragment() {
 
@@ -30,7 +31,6 @@ class ChatFragment : Fragment() {
     private lateinit var messageEditText: EditText
     private lateinit var sendButton: Button
     private lateinit var swipeRefreshLayout: SwipeRefreshLayout
-
     private lateinit var firestore: FirebaseFirestore
     private lateinit var chatAdapter: ChatAdapter
 
@@ -104,11 +104,13 @@ class ChatFragment : Fragment() {
                     if(it.isSuccessful) {
                         val user = it.result?.toObject(User::class.java)?.let { user: User ->
 
+                            val sdf = SimpleDateFormat("dd/M/yyyy hh:mm:ss")
+
                             // 2 - Create Chat Message
                             val chat = Chat(
                                 userId = Firebase.auth.currentUser?.uid,
                                 message = message,
-                                sentAt = Date().time,
+                                sentAt = sdf.format(Date()),
                                 isSent = false,
                                 imageUrl = null,
                                 username =user.username,
@@ -150,6 +152,7 @@ class ChatFragment : Fragment() {
 
         firestore
             .collection(COLLECTION_CHAT)
+            .orderBy("sentAt", Query.Direction.DESCENDING)
             .get()
             .addOnCompleteListener {
                 if (it.isSuccessful) {

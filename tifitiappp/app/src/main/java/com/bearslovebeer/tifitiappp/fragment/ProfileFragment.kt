@@ -11,6 +11,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import com.bearslovebeer.tifitiappp.Constants
 import com.bearslovebeer.tifitiappp.R
@@ -34,9 +35,11 @@ class profileFragment : Fragment() {
 
     // Views
     private lateinit var registerButton: Button
-    private lateinit var welcomeTextView: TextView
     private lateinit var avatarButton: Button
     private lateinit var avatarImageView: ImageView
+    private lateinit var usernameTextView: TextView
+    private lateinit var emailTextView: TextView
+    private lateinit var linearLayoutProfile: LinearLayout
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
@@ -58,9 +61,11 @@ class profileFragment : Fragment() {
 
     private fun initViews(parentView: View) {
         registerButton = parentView.findViewById<Button>(R.id.register_button)
-        welcomeTextView = parentView.findViewById(R.id.welcomeTextView)
         avatarButton = parentView.findViewById<Button>(R.id.avatarButton)
         avatarImageView = parentView.findViewById(R.id.avatarImageView)
+        usernameTextView = parentView.findViewById(R.id.usernameTextView)
+        emailTextView = parentView.findViewById(R.id.emailTextView)
+        linearLayoutProfile = parentView.findViewById(R.id.profileLoggedInContainer)
     }
 
     private fun initListeners() {
@@ -124,7 +129,7 @@ class profileFragment : Fragment() {
         Firebase.auth.currentUser?.let { user ->
             // User available
             registerButton.visibility = View.GONE
-            welcomeTextView.visibility = View.VISIBLE
+            linearLayoutProfile.visibility = View.VISIBLE
 
             // Get User Profile
             Firebase.firestore
@@ -133,6 +138,9 @@ class profileFragment : Fragment() {
                 .get()
                 .addOnSuccessListener {
                     it.toObject(User::class.java)?.let { user ->
+                        usernameTextView.text = user.username
+                        emailTextView.text = user.email
+
                         val avatarUrl = user.avatarUrl
 
                         // Load avatar URL into ImageView
@@ -149,7 +157,7 @@ class profileFragment : Fragment() {
         } ?: run {
             // User not available
             registerButton.visibility = View.VISIBLE
-            welcomeTextView.visibility = View.GONE
+            linearLayoutProfile.visibility = View.GONE
         }
     }
 

@@ -21,6 +21,7 @@ class StreamsViewModel(
 ) {
 
     var isLoggedIn = MutableLiveData<Boolean>()
+
     // 1 - Emetre nous valors
     // 2 - Escoltant nous valors
     val tftGames = MutableLiveData<List<Any>>()
@@ -43,7 +44,7 @@ class StreamsViewModel(
     fun checkUserAvalability() {
         val isLoggedIn = userManager.getAccesToken() != null
         this.isLoggedIn.postValue(isLoggedIn)
-        if(isLoggedIn) doAllPetitions()
+        if (isLoggedIn) doAllPetitions()
     }
 
     fun onRefresh() {
@@ -69,39 +70,36 @@ class StreamsViewModel(
         // ViewModelScope
 
         GlobalScope.launch {
-                withContext(Dispatchers.IO) {
+            withContext(Dispatchers.IO) {
 
-                    val accessToken = userManager.getAccesToken()
+                val accessToken = userManager.getAccesToken()
 
-                    // Get Top Games
+                // Get Top Games
 
-                    try {
-                        // QUERY = (GAME_ID(TFT_ID) & LANGUAGE=ESPAÑOL & FIRST=TOP 10 CANALES)
+                try {
+                    // QUERY = (GAME_ID(TFT_ID) & LANGUAGE=ESPAÑOL & FIRST=TOP 10 CANALES)
 
-                        var response = httpClient.get<String>(query) {
-                            header("Client-Id", Constants.OAUTH_CLIENT_ID)
-                            header("Authorization", "Bearer $accessToken")
-                        }
-
-                        if(numberOfQuery==0) Log.i("QueryResult", "3TopSpaChannels: "+response)
-                        if(numberOfQuery==1) Log.i("QueryResult", "3TopWorldChannels: "+response)
-                        if(numberOfQuery==2) Log.i("QueryResult", "Yes10TopSpaChannels: "+response)
-                        else Log.i("QueryResult", "Yes10TopWorldChannels: "+response)
-
-                        // Change to Main Thread
-                        withContext(Dispatchers.Main) {
-                            // TODO: Update UI
-                            //initRecycler(response)
-                            //tftGames.postValue(listOf(response))
-                        }
-                    } catch (t:Throwable) {
-                        // TODO: Handle error
-                        errors.postValue(t.message)
+                    var response = httpClient.get<String>(query) {
+                        header("Client-Id", Constants.OAUTH_CLIENT_ID)
+                        header("Authorization", "Bearer $accessToken")
                     }
+
+                    if (numberOfQuery == 0) Log.i("QueryResult", "3TopSpaChannels: $response")
+                    else if (numberOfQuery == 1) Log.i("QueryResult", "3TopWorldChannels: $response")
+                    else if (numberOfQuery == 2) Log.i("QueryResult", "Yes10TopSpaChannels: $response")
+                    else if (numberOfQuery == 3) Log.i("QueryResult", "Yes10TopWorldChannels: ${response}")
+
+                    // Change to Main Thread
+                    withContext(Dispatchers.Main) {
+                        //initRecycler(response)
+                        //tftGames.postValue(listOf(response))
+                    }
+                } catch (t: Throwable) {
+                    // TODO: Handle error
+                    errors.postValue(t.message)
                 }
-
+            }
         }
-
     }
 
     // endregion

@@ -2,35 +2,16 @@ package com.bearslovebeer.tifitiappp.fragment
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import androidx.lifecycle.lifecycleScope
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.bearslovebeer.tifitiappp.Constants
 import com.bearslovebeer.tifitiappp.R
 import com.bearslovebeer.tifitiappp.activity.WebViewActivity
-import com.bearslovebeer.tifitiappp.adapter.ChannelsAdapter
-import com.bearslovebeer.tifitiappp.adapter.ObjectsAdapter
-import com.bearslovebeer.tifitiappp.models.Channel
 import com.bearslovebeer.tifitiappp.models.ListChannels
-import com.bearslovebeer.tifitiappp.services.NetworkManager
 import com.bearslovebeer.tifitiappp.services.UserManager
 import com.bearslovebeer.tifitiappp.viewmodel.StreamsViewModel
-import com.google.gson.Gson
-import io.ktor.client.features.*
-import io.ktor.client.request.*
-import kotlinx.android.synthetic.main.fragment_chat.*
-import kotlinx.android.synthetic.main.fragment_objects.*
-import kotlinx.android.synthetic.main.fragment_twitch.*
-import kotlinx.android.synthetic.main.fragment_twitch.view.*
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-import kotlinx.serialization.json.Json
 
 class TwitchFragment : Fragment() {
 
