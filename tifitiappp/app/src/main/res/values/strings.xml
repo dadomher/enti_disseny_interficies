@@ -3,11 +3,18 @@
 
     // CHAT FRAGMENT STRINGS
     <string name="button_register">Register</string>
+    <string name="hint_et">Must be connected to write here.</string>
 
     // REGISTER FRAGMENT STRING
     <string name="email_hint">Enter your Email here.</string>
     <string name="password_hint">Enter your Password here.</string>
     <string name="username_hint">Enter your username here.</string>
+
+    // PROFILE FRAGMENT
+    <string name="welcome_tv">Welcome,  </string>
+    <string name="username_tv">Username</string>
+    <string name="email_tv">Email</string>
+    <string name="choose_bt">Choose your Avatar</string>
 
     // NEWS FRAGMENT
     <string name="titleExemple">Title</string>
@@ -27,6 +34,9 @@
 
     // OBJECTS_INFO FRAGMENT
     <string name="cerrar_bt">Cerrar</string>
+    <string name="description_tv">Description</string>
+    <string name="pasiva_tv">Pasiva</string>
+    <string name="title_tv">Title</string>
 
     // TOAST ALERTS
     <string name="error_mail_invalid">Email is not valid.</string>

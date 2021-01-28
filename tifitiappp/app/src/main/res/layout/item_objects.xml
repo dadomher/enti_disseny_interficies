@@ -14,8 +14,8 @@
 
         <ImageView
             android:id="@+id/itemBanner"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="@dimen/imgUrl_size"
+            android:layout_height="@dimen/imgUrl_size"
             android:src="@mipmap/ic_launcher_round" />
 
 </androidx.cardview.widget.CardView>

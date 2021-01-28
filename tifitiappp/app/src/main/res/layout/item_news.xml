@@ -32,7 +32,8 @@
             android:layout_marginStart="@dimen/objectMargin"
             android:text="@string/titleExemple"
             android:textColor="@color/Tertiary"
-            android:textSize="@dimen/titleSize" />
+            android:textSize="@dimen/titleSize"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/newsDescription"
@@ -40,8 +41,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/objectMargin"
             android:text="@string/descriptionExemple"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="@dimen/descriptionSize" />
+            android:textColor="@color/Tertiary_1"
+            android:textSize="@dimen/subTitleSize"
+            android:textStyle="italic"/>
 
         <TextView
             android:id="@+id/newsDate"
@@ -51,7 +53,7 @@
             android:layout_margin="@dimen/objectMargin"
             android:text="@string/dateExemple"
             android:textColor="@color/Tertiary_1"
-            android:textSize="@dimen/descriptionSize" />
+            android:textSize="@dimen/titleSize" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

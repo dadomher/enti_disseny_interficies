@@ -15,15 +15,14 @@
     <color name="chatFragment">#3dd3b0</color>
     <color name="optionsFragment">#3dd3b0</color>
 
-    <!--Templare color-->
-    <color name="Primary">#A3965A</color>
+    <!--Template colors-->
+    <color name="Primary">#94721B</color>
 
-    <color name="Secundary">#FFF3BF</color>
-    <color name="Secundary_2">#F0E09C</color>
+    <color name="Secundary">#FAF3A9</color>
+    <color name="Secundary_2">#EBDE7D</color>
 
-    <color name="Tertiary">#6766EB</color>
-    <color name="Tertiary_1">#ADADF0</color>
+    <color name="Tertiary">#534D8F</color>
+    <color name="Tertiary_1">#594DDB</color>
 
-
-
+    <color name="twitchButton">#39346E</color>
 </resources>

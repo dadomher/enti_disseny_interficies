@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom|center"
-    android:background="@android:color/darker_gray"
+    android:background="@color/Tertiary"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -17,12 +17,16 @@
             android:id="@+id/title_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Title" />
+            android:text="@string/title_tv"
+            android:textStyle="bold"
+            android:textColor="@color/Secundary_2"
+            android:textSize="@dimen/titleSize"/>
         <Button
             android:id="@+id/cerrar_bt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:background="@color/Secundary_2"
             android:text="@string/cerrar_bt" />
     </RelativeLayout>
 
@@ -45,7 +49,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="right"
-            android:text="Pasiva" />
+            android:text="@string/pasiva_tv"
+            android:textStyle="italic"
+            android:textColor="@color/Secundary_2"/>
     </LinearLayout>
 
     <LinearLayout
@@ -81,6 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_marginHorizontal="@dimen/small_margin"
-            android:text="Description" />
+            android:text="@string/description_tv"
+            android:textColor="@color/Secundary"/>
     </LinearLayout>
 </LinearLayout>

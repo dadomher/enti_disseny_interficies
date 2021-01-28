@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
     <dimen name="layout_margin_small">8dp</dimen>
+    <dimen name="layout_margin_small_2">12dp</dimen>
     <dimen name="layout_margin_medium">16dp</dimen>
     <dimen name="layout_margin_high">48dp</dimen>
     <dimen name="layout_margin_XL">72dp</dimen>
+
+    //Menu bar
+    <dimen name="elevation">2dp</dimen>
+
+    // Profile fragment
+    <dimen name="userImage_iv">100dp</dimen>
 
     //News fragment
     <dimen name="layout_margin_small_news">4dp</dimen>
@@ -12,7 +19,8 @@
     <dimen name="objectMargin">10dp</dimen>
 
     <dimen name="descriptionSize">12sp</dimen>
-    <dimen name="titleSize">14sp</dimen>
+    <dimen name="titleSize">16sp</dimen>
+    <dimen name="subTitleSize">14sp</dimen>
 
     //ObjectInfo fragment
     <dimen name="small_margin">5dp</dimen>

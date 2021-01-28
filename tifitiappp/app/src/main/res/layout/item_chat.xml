@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/layout_margin_XL"
     android:layout_margin="8dp"
+    android:background="@color/Secundary"
     android:orientation="vertical">
 
     <LinearLayout
@@ -18,7 +19,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            tools:text="Username" />
+            tools:text="Username"
+            android:textStyle="bold"
+            android:textSize="@dimen/titleSize"/>
         <TextView
             android:id="@+id/messageTextView"
             android:layout_width="wrap_content"
@@ -33,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        tools:text="12:34:10, 1/12/20" />
+        tools:text="12:34:10, 1/12/20"
+        android:textStyle="italic"/>
 
 </LinearLayout>

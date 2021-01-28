@@ -2,13 +2,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/Secundary">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/Primary"
         android:layout_above="@id/sendMessageContainer">
 
         <androidx.recyclerview.widget.RecyclerView
@@ -32,7 +32,7 @@
             android:layout_toStartOf="@id/sendButton"
             android:layout_height="match_parent"
             android:enabled="false"
-            android:hint="Must be connected to write here."/>
+            android:hint="@string/hint_et"/>
 
         <Button
             android:id="@+id/sendButton"

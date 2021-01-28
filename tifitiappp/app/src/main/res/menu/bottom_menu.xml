@@ -3,30 +3,29 @@
     <item
         android:id="@+id/news"
         android:title="News"
-        android:icon="@drawable/ic_action_news"
-        />
+        android:icon="@drawable/news_icon_v2" />
 
     <item
         android:id="@+id/objects"
         android:title="Items"
-        android:icon="@drawable/ic_action_objects"
+        android:icon="@drawable/sword_icon_v2"
         />
 
     <item
         android:id="@+id/twitch"
         android:title="Twitch"
-        android:icon="@drawable/ic_action_champs"
+        android:icon="@drawable/champs_icon_v2"
         />
 
     <item
         android:id="@+id/chat"
         android:title="Chat"
-        android:icon="@drawable/ic_action_chat"
+        android:icon="@drawable/chat_icon_v2"
         />
 
     <item
         android:id="@+id/options"
         android:title="Options"
-        android:icon="@drawable/ic_action_options"
+        android:icon="@drawable/config_icon_v2"
         />
 </menu>

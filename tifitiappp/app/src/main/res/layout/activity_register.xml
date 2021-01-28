@@ -7,6 +7,7 @@
     android:layout_margin="@dimen/layout_margin_medium"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/Secundary"
     tools:context=".activity.RegisterActivity">
 
     <!-- Email -->

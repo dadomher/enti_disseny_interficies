@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Primary"
+    android:background="@color/Secundary"
     android:orientation="vertical">
 
     <Button
         android:id="@+id/register_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/layout_margin_medium"
         android:text="@string/button_register" />
 
     <LinearLayout
@@ -29,12 +29,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Welcome,  " />
+                android:text="@string/welcome_tv" />
             <TextView
                 android:id="@+id/usernameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Username" />
+                android:text="@string/username_tv"
+                android:textColor="@color/Tertiary_1"
+                android:textStyle="bold"
+                android:textSize="@dimen/titleSize"/>
 
         </LinearLayout>
 
@@ -52,7 +55,10 @@
                 android:id="@+id/emailTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email" />
+                android:text="@string/email_tv"
+                android:textColor="@color/Tertiary_1"
+                android:textStyle="bold"
+                android:textSize="@dimen/titleSize"/>
 
         </LinearLayout>
 
@@ -64,17 +70,17 @@
 
             <ImageView
                 android:id="@+id/avatarImageView"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_margin="16dp"
+                android:layout_width="@dimen/userImage_iv"
+                android:layout_height="@dimen/userImage_iv"
+                android:layout_margin="@dimen/layout_margin_medium"
                 android:src="@drawable/googleg_standard_color_18" />
             <Button
                 android:id="@+id/avatarButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_margin="16dp"
-                android:text="Choose your Avatar" />
+                android:layout_margin="@dimen/layout_margin_medium"
+                android:text="@string/choose_bt" />
 
         </RelativeLayout>
     </LinearLayout>
