@@ -43,14 +43,28 @@ class ChatFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_chat, container, false)
     }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        activity?.title = "Tifiti Manager - Chat";
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         // Init Firestore
         firestore = Firebase.firestore
+
         // Init Views
         initViews(view)
         // Init RecyclerView
+
+        Firebase.auth.currentUser?.uid?.let {
+            // User Available
+            messageEditText.isEnabled = true
+            messageEditText.hint = ""
+            sendButton.isEnabled = true
+        }
+
         initRecyclerView()
         // Init Listeners
         initListeners()
@@ -95,6 +109,9 @@ class ChatFragment : Fragment() {
         // 0 - Get User ID
         Firebase.auth.currentUser?.uid?.let { userId: String ->
             // User Available
+            messageEditText.isEnabled = true
+            messageEditText.hint = ""
+            sendButton.isEnabled = true
             // 1 - Get User Object
             firestore
                 .collection(COLLECTION_USERS)
@@ -170,4 +187,9 @@ class ChatFragment : Fragment() {
                 swipeRefreshLayout.isRefreshing = false
             }
     }
+
+
+
+
+
 }

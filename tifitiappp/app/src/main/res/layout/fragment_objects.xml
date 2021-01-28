@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Primary"
     app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
     tools:context=".MainActivity">
 
@@ -21,10 +22,11 @@
 
             <TextView
                 android:id="@+id/sword_textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_margin="@dimen/objectMargin"
-                android:text="@string/sword_tv" />
+                android:text="@string/sword_tv"
+                android:textColor="@color/Tertiary"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/sword_recyclerView"
@@ -39,7 +41,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/objectMargin"
-                android:text="@string/bow_tv" />
+                android:text="@string/bow_tv"
+                android:textColor="@color/Tertiary"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/bow_recyclerView"
@@ -54,7 +57,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/objectMargin"
-                android:text="@string/rod_tv" />
+                android:text="@string/rod_tv"
+                android:textColor="@color/Tertiary"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rod_recyclerView"
@@ -69,7 +73,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/objectMargin"
-                android:text="@string/tear_tv" />
+                android:text="@string/tear_tv"
+                android:textColor="@color/Tertiary"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/tear_recyclerView"
@@ -84,7 +89,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/objectMargin"
-                android:text="@string/vest_tv" />
+                android:text="@string/vest_tv"
+                android:textColor="@color/Tertiary"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/vest_recyclerView"
@@ -99,7 +105,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/objectMargin"
-                android:text="@string/coat_tv" />
+                android:text="@string/coat_tv"
+                android:textColor="@color/Tertiary"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/coat_recyclerView"
@@ -114,7 +121,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/objectMargin"
-                android:text="@string/belt_tv" />
+                android:text="@string/belt_tv"
+                android:textColor="@color/Tertiary"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/belt_recyclerView"
@@ -129,7 +137,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/objectMargin"
-                android:text="@string/gloves_tv" />
+                android:text="@string/gloves_tv"
+                android:textColor="@color/Tertiary"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/gloves_recyclerView"
@@ -149,7 +158,8 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/spatula_recyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="@color/Tertiary"/>
         </LinearLayout>
 
     </ScrollView>

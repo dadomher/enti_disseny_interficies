@@ -14,4 +14,16 @@
     <color name="champsFragment">#ffe240</color>
     <color name="chatFragment">#3dd3b0</color>
     <color name="optionsFragment">#3dd3b0</color>
+
+    <!--Templare color-->
+    <color name="Primary">#A3965A</color>
+
+    <color name="Secundary">#FFF3BF</color>
+    <color name="Secundary_2">#F0E09C</color>
+
+    <color name="Tertiary">#6766EB</color>
+    <color name="Tertiary_1">#ADADF0</color>
+
+
+
 </resources>

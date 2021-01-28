@@ -8,6 +8,7 @@
         android:id="@+id/swipeRefreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/Primary"
         android:layout_above="@id/sendMessageContainer">
 
         <androidx.recyclerview.widget.RecyclerView
@@ -29,13 +30,16 @@
             android:id="@+id/messageEditText"
             android:layout_width="match_parent"
             android:layout_toStartOf="@id/sendButton"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:enabled="false"
+            android:hint="Must be connected to write here."/>
 
         <Button
             android:id="@+id/sendButton"
             android:layout_width="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/btn_send"/>
     </RelativeLayout>
 </RelativeLayout>

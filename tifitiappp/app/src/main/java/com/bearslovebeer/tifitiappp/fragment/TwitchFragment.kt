@@ -38,6 +38,11 @@ class TwitchFragment : Fragment() {
         initObservers()
     }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        activity?.title = "Tifiti Manager - Twitch";
+    }
+
     override fun onResume() {
         super.onResume()
         streamsViewModel.checkUserAvalability()

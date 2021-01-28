@@ -10,6 +10,7 @@
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground"
+    app:cardBackgroundColor="@color/Secundary"
     app:cardCornerRadius="@dimen/cardCornerRadius">
 
     <LinearLayout
@@ -30,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/objectMargin"
             android:text="@string/titleExemple"
-            android:textColor="@android:color/black"
+            android:textColor="@color/Tertiary"
             android:textSize="@dimen/titleSize" />
 
         <TextView
@@ -49,7 +50,7 @@
             android:layout_gravity="right"
             android:layout_margin="@dimen/objectMargin"
             android:text="@string/dateExemple"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/Tertiary_1"
             android:textSize="@dimen/descriptionSize" />
 
     </LinearLayout>

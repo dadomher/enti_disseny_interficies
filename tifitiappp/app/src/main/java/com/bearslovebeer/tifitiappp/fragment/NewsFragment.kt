@@ -12,7 +12,6 @@ import com.bearslovebeer.tifitiappp.models.News
 import kotlinx.android.synthetic.main.fragment_news.*
 
 class NewsFragment : Fragment() {
-
     // Partiendo de la clase data "News" vamos a instanciar (crear un objeto de esa clase, pero con atributos en vez de variables) una lista de noticias.
     val newsObject = listOf<News>(
         News(
@@ -87,6 +86,11 @@ class NewsFragment : Fragment() {
         )
     )
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        activity?.title = "Tifiti Manager - News";
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -99,12 +103,13 @@ class NewsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+
         initRecycler()
     }
 
     override fun onStart() {
         super.onStart()
-
     }
 
     fun initRecycler(){
@@ -112,5 +117,4 @@ class NewsFragment : Fragment() {
         val adapter = NewsAdapter(newsObject)
         news_recyclerView.adapter = adapter
     }
-
 }

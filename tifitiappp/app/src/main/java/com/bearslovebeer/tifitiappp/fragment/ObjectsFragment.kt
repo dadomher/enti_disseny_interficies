@@ -16,12 +16,18 @@ import java.io.InputStream
 
 class ObjectsFragment : Fragment() {
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_objects, container, false)
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        activity?.title = "Tifiti Manager - Objects";
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
