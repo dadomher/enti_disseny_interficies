@@ -5,9 +5,10 @@
     <uses-feature android:name="android.hardware.camera"
         android:required="true"/>
     <application
+        android:label="@string/app_name"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_launchertim_cuadrado"
+        android:roundIcon="@mipmap/ic_launchertim_redondo"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Tifitiappp">
@@ -35,7 +36,7 @@
         <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8878320233388343~8836785645"/>
+            android:value="ca-app-pub-5361617698168727~4163433103"/>
 
     </application>
 </manifest>
